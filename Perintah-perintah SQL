@@ -1,0 +1,12 @@
+# SHOW DATABASES; -> Menampilkan daftar database
+# CREATE DATABASE nama_db; -> Membuat database
+# CREATE DATABASE IF NOT EXISTS nama_db; -> Membuat database apabila belum tersedia
+# USE nama_db; -> Memilih database
+# SELECT DATABASE(); -> Menampilkan database aktif
+# SHOW CREATE DATABASE nama_db; -> Melihat definisi pembuatan database
+# SHOW DATABASES LIKE 'db%'; -> Mencari database berdasarkan pola nama
+# DROP DATABASE nama_db; -> Menghapus database
+# DROP DATABASE IF EXISTS nama_db; -> Menghapus database apabila tersedia
+# SELECT VERSION(); -> Menghapus database apabila tersedia
+# SELECT USER(); -> Melihat pengguna database
+# SELECT NOW(); -> Melihat waktu pada server
