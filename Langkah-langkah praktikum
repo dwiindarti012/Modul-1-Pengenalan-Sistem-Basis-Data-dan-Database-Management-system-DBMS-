@@ -1,0 +1,15 @@
+1. Buka aplikasi XAMPP Control Panel
+2. klik tombol Start di bagian Apache dan MySQL
+3. Akses phpMyAdmin dengan link -> http://localhost/phpmyadmin/
+4. Buka pada Tab SQL dan masukan perintah SELECT VERSION(); pada text box, lalu tekan tombol Go untuk menjalankannya
+5. SELECT VERSION(); merupakan perintah untuk menampilkan inforrmasi terkait versi DBMS yang kita gunakan
+6. lanjutkan dengan membuat database db NIM anda dan teman disamping anda dengan perintah: Create database db_250306010; dan Create database db_250306014;
+7. selanjutnya tampilkan daftar database yang telah dibuat dengan perintah: SHOW DATABASES; 
+8. lalu pilih salah satu database yang akan digunakan dengan perintah: USE db_250306010;
+9. kembali buatkan database baru dengan nama yang sesuai dengan database yang dibuat sebelumnya (NIM anda) dengan perintah: Create database db_250306010;
+10. Akan terjadi error, sebab nama database tersebut sudah tersedia
+11. gunakan perintah: IF NOT EXISTS untuk mencegah kegagalan dalam pembuatan database, sehingga bentuk perintah lengkapnya: CREATE DATABASE IF NOT EXISTS db_250306010;
+12. lalu cari database yang telah dibuat berdasarkan pola/inisial nama dengan perintah: SHOW DATABASES LIKE 'db%';
+13. Selanjutnya hapus database NIM teman anda dengan perintah: DROP DATABASE db_250306014;
+14. lalu periksa apakah sudah benar-benar terhapus dengan perintah: SHOW DATABASES;
+15. Hasil akhirnya hanya tersisah satu database dengan NIM anda
